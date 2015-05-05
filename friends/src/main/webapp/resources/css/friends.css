@@ -1,0 +1,25 @@
+.itemHolder {
+	width: 210px;
+	border-radius: 0px;
+	padding: 10px 20px;
+	margin-bottom: 0px;
+	list-style: none outside none;
+	margin-left: 0px;
+	margin-top: -8px;
+
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: linear-gradient(to bottom,  #D3D3D3 0%,black 17%,#D3D3D3 35%,#D3D3D3 49%,#D3D3D3 50%,#D3D3D3 61%,#D3D3D3 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#f0f0f0',GradientType=0 ); /* IE6-8 */
+
+	-webkit-transition: all 0.1s ease-out 0s;
+	-moz-transition: all 0.1s ease-out 0s;
+	-o-transition: all 0.1s ease-out 0s;
+	transition: all 0.1s ease-out 0s;
+}
+.itemHolder:hover {
+	opacity: 1;
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
